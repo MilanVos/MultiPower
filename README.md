@@ -8,7 +8,6 @@ MultiPower is een Minecraft Spigot/Bukkit plugin die spelers elementaire krachte
 - **Intuïtieve Bediening**: Gebruik rechtermuisklik, linkermuisklik en shift om verschillende vaardigheden te activeren
 - **Eerste Join Detectie**: Nieuwe spelers krijgen automatisch een menu om hun kracht te kiezen
 - **Persistente Data**: Spelergegevens worden opgeslagen, zodat ze hun krachten behouden na het opnieuw verbinden
-- **Configureerbare Cooldowns**: Beheerders kunnen de cooldowns voor alle vaardigheden aanpassen
 
 ## Elementen en Vaardigheden
 
