@@ -1,6 +1,22 @@
 name: MultiPower
-version: '1.0'
+version: '${project.version}'
 main: nl.multitime.multiPower.MultiPower
-api-version: '1.19'
-authors: [ MultiDevelopment ]
-description: Minecraft Client Made by Multtime himself
+api-version: '1.16'
+authors: [MultiTime]
+description: Een plugin die spelers elementaire krachten geeft
+
+commands:
+  power:
+    description: Beheer je elementaire krachten
+    usage: /power [menu|reset|set <kracht>]
+    aliases: [powers, element]
+
+permissions:
+  multipower.reset:
+    description: Sta toe om je kracht te resetten
+    default: op
+  multipower.admin:
+    description: Geef toegang tot admin commando's
+    default: op
+    children:
+      multipower.reset: true
