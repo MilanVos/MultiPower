@@ -1,0 +1,6 @@
+name: MultiPower
+version: '1.0'
+main: nl.multitime.multiPower.MultiPower
+api-version: '1.19'
+authors: [ MultiDevelopment ]
+description: Minecraft Client Made by Multtime himself

@@ -1,0 +1,25 @@
+# MultiPower Configuratie
+
+# Cooldowns voor abilities (in seconden)
+cooldowns:
+  fire:
+    fireball: 5
+    fire-circle: 30
+  water:
+    create-water: 3
+    speed-boost: 15
+    water-breathing: 60
+  earth:
+    throw-stone: 5
+    create-wall: 20
+    strength: 45
+  air:
+    push: 8
+    dash: 5
+    flight: 60
+
+# Moet een speler een kracht kiezen bij het joinen?
+force-power-selection: true
+
+# Kunnen spelers van kracht veranderen?
+allow-power-change: false
